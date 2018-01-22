@@ -2,9 +2,12 @@
 Backend/server for myAudi Trippy app
 
 Available services via REST CRUD
-/fcbgame
-/fcbticket
-/trip
-/pickup
-/user
-/userStats
+<ul>
+  <li>/fcbgame</li>
+  <li>/fcbticket</li>
+  <li>/trip</li>
+  <li>/pickup</li>
+  <li>/user</li>
+  <li>/userStats</li>
+</ul>
+  
