@@ -1,5 +1,5 @@
-# fcb-audi-trippy
-Backend/server for myAudi Trippy app
+# fcb-audiGo
+Backend/server for myAudi AudiGo app
 
 Available services via REST CRUD
 <ul>
