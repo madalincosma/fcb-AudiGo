@@ -1,0 +1,90 @@
+http://localhost:9090/user/
+{
+	"username" : "tam"
+}
+
+{
+	"username" : "mada"
+}
+
+{
+	"username" : "fab"
+}
+
+{
+	"username" : "ed"
+}
+
+{
+	"userId" : "vin"
+}
+
+http://localhost:9090/userStats/
+{
+"user": "http://localhost:9090/user/4",
+"rating": 3,
+"driverTripsCount": 2,
+"passengerTripsCount": 0,
+"paidAccount": false
+}
+
+
+http://localhost:9090/fcbgame/
+{
+"gameId": 1234,
+"name": "FC Bayern - Werder Bremen"
+}
+
+http://localhost:9090/trip/
+{
+"user": "http://localhost:9090/user/1",
+"game": "http://localhost:9090/fcbgame/1",
+"startLatitude": null,
+"startLongitude": null,
+"endLatitude": null,
+"endLongitude": null,
+"startDateTime": null,
+"endDateTime": null
+}
+
+{
+"user": "http://localhost:9090/user/2",
+"game": "http://localhost:9090/fcbgame/1",
+"startLatitude": null,
+"startLongitude": null,
+"endLatitude": null,
+"endLongitude": null,
+"startDateTime": null,
+"endDateTime": null
+}
+http://localhost:9090/pickup/
+{
+"pickupId": 1,
+"user": "http://localhost:9090/user/3",
+"startLatitude": null,
+"startLongitude": null,
+"endLatitude": null,
+"endLongitude": null,
+"startDateTime": null,
+"endDateTime": null
+}
+{
+"pickupId": 3,
+"user": "http://localhost:9090/user/5",
+"startLatitude": null,
+"startLongitude": null,
+"endLatitude": null,
+"endLongitude": null,
+"startDateTime": null,
+"endDateTime": null
+}
+{
+"pickupId": 2,
+"user": "http://localhost:9090/user/4",
+"startLatitude": null,
+"startLongitude": null,
+"endLatitude": null,
+"endLongitude": null,
+"startDateTime": null,
+"endDateTime": null
+}
